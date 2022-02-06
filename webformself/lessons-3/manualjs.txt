@@ -1,0 +1,36 @@
+
+/---------lessons-3---------/
+npm ---- //пакетный менеджер
+npm init //создание проекта для приложения
+npm install express --save //интегрируем в наше приложение приложения express с его пакетами при помощи флага --save
+npm install nodemon --save-d //интегрируем как приложение разработки
+npm install nodemon -g //делаем как глобальное приложение 
+npm -i //с package.json парсит данные и востонавливает проект если были потерены проекты
+/---------lessons-3---------/
+
+
+/---------lessons-4---------/
+nodemon index.js // запуск  приложение в режиме редактирование и перезапуска после изменения кода 
+"scripts": {
+    "start": "nodemon index.js",
+    "end"  : "node index.js"
+  },
+ npm run start //запуск из настроек
+ npm run end  
+
+
+
+/---------lessons-4---------/
+
+
+/---------lessons-5---------/
+npm install ejs //установка пакета для шабланизации html страниц
+/---------lessons-5---------/
+
+/---------lessons-6---------/
+npm install body-parser // для отраб
+
+/---------lessons-6---------/
+
+npm install request request-promise -S // работа с api request-promise
+
